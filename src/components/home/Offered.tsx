@@ -1,7 +1,8 @@
 import Boxes from "../ui/Boxes"
 import Image from "next/image"
 import Link from 'next/link'
-import hg from '@/assets/hhfhfhfh.webp'
+import img from '@/assets/images/dgca-gclass.jpg'
+import cpl from '@/assets/images/cpl.png'
 export default function Offered(){
 
     return <>
@@ -62,7 +63,7 @@ export default function Offered(){
    
         <div className="flex-1 flex justify-center md:justify-end">
             <div className="">
-                <Image src={hg} alt="" height={400} width={450} className="rounded-b-xl w-full md:rounded-r-xl md:rounded-bl-none" />
+                <Image src={img} alt="" height={400} width={450} className="rounded-b-xl w-full md:rounded-r-xl md:rounded-bl-none" />
             </div>
         </div>
 
@@ -104,7 +105,7 @@ export default function Offered(){
    
         <div className="flex-1 flex justify-center md:justify-end">
             <div className="">
-                <Image src={hg} alt="" height={400} width={450} className="rounded-b-xl w-full md:rounded-r-xl md:rounded-bl-none" />
+                <Image src={cpl} alt="" height={400} width={450} className="rounded-b-xl w-full md:rounded-r-xl md:rounded-bl-none" />
             </div>
         </div>
 

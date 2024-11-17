@@ -1,5 +1,6 @@
 "use client";
-import Hero from '@/assets/hero.png';
+// import Hero from '@/assets/hero.png';
+import Hero from '@/assets/images/home-bg.png' 
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';

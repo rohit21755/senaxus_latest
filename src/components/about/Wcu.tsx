@@ -1,7 +1,7 @@
-import wcu from '@/assets/wcu.png'
+// import wcu from '@/assets/wcu.png'
 import Image from 'next/image'
 import planwm from '@/assets/planwm.png'
-
+import wcu from '@/assets/images/wcu2.png'
 export default function Wcu() {
     return (
         <>
@@ -39,7 +39,7 @@ export default function Wcu() {
                     </div>
 
                     <div className='w-full md:w-1/2'>
-                        <Image src={wcu} alt=''  data-aos-anchor-placement="top-center"/>
+                        <Image src={wcu} alt=''  data-aos-anchor-placement="top-center " className='h-full'/>
                     </div>
                 </div>
             </div>
