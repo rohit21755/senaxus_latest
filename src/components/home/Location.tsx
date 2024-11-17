@@ -3,7 +3,7 @@ import Image from "next/image"
 
 import us from '@/assets/united-states.png'
 
-import world from '@/assets/world.png'
+import world from '@/assets/images/world.png'
 
 import planwm from '@/assets/planwm.png'
 import sa from '@/assets/images/south-africa.png'
