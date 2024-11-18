@@ -6,8 +6,8 @@ const FAQAccordion = () => {
   const [loadedItems, setLoadedItems] = useState<number[]>([]); // Track loaded items for animation
 
   const faqs = [
-    { id: 1, title: "About the course", content: "Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday. We also offer extended care options for parents who need early drop-off or late pick-up." },
-    { id: 2, title: "About the training", content: "We provide comprehensive training programs tailored to meet each students needs." },
+    { id: 1, title: "About the course", content: "Our comprehensive training course includes ground school for aviation theory, simulator training, and hands-on flight training. You'll gain the skills and certifications needed to become a professional commercial pilot." },
+    { id: 2, title: "About the training", content: "The training combines classroom instruction, advanced simulators, and real flight experience, ensuring you develop the technical skills, decision-making abilities, and confidence required for a successful aviation career." },
     { id: 3, title: "What extracurricular activities...", content: "We offer a wide range of extracurricular activities including sports, arts, music, and academic clubs." },
     { id: 4, title: "How do you handle food allergies...", content: "We maintain a detailed record of all student allergies and dietary requirements, ensuring safe meal preparation and service." },
     { id: 5, title: "What is the teacher-to-student...", content: "We maintain small class sizes to ensure individual attention for each student." },

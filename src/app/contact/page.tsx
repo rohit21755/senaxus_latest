@@ -3,9 +3,9 @@ export default function Contact(){
     <div className="relative flex items-top justify-center min-h-screen  sm:items-center sm:pt-0 p-16">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="flex justify-center">
                         {/* Contact Information Section */}
-                        <div className="p-6 border-salte-500 border-2  sm:rounded-lg">
+                        <div className="p-6 border-salte-500 border-2  sm:rounded-lg p-24">
                             <h1 className="text-4xl sm:text-5xl text-slate-200  font-extrabold tracking-tight">
                                 Get in touch
                             </h1>
@@ -36,7 +36,7 @@ export default function Contact(){
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide text-slate-300 font-semibold w-40">
-                                    +44 1234567890
+                                +919266541414
                                 </div>
                             </div>
 
@@ -60,76 +60,17 @@ export default function Contact(){
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
                                     <a
-                                        href="https://veilmail.io/irish-geoff"
+                                        href="mailto:enquiry@futurepilot.in"
                                         className="text-blue-600 dark:text-blue-500 hover:underline"
                                     >
-                                        https://veilmail.io/irish-geoff
+                                        enquiry@futurepilot.in
                                     </a>
                                 </div>
                             </div>
                         </div>
 
                         {/* Contact Form */}
-                        <form
-                            action="https://fabform.io/f/xxxxx"
-                            method="post"
-                            className="p-6 flex flex-col justify-center   border-salte-500 border-2  "
-                        >
-                            <div className="flex flex-col">
-                                <label htmlFor="name" className="hidden">
-                                    Full Name
-                                </label>
-                                <input
-                                    type="text"
-                                    name="name"
-                                    id="name"
-                                    placeholder="Full Name"
-                                    className="w-full mt-2 py-3 px-3 rounded-lg  bg-transparent border-2 border-gray-400  text-gray-800  font-semibold focus:border-indigo-500 focus:outline-none"
-                                />
-                            </div>
-
-                            <div className="flex flex-col mt-2">
-                                <label htmlFor="email" className="hidden">
-                                    Email
-                                </label>
-                                <input
-                                    type="email"
-                                    name="email"
-                                    id="email"
-                                    placeholder="Email"
-                                    className="w-full mt-2 py-3 px-3 rounded-lg bg-transparent  border-2 border-gray-400  text-gray-800  font-semibold focus:border-indigo-500 focus:outline-none"
-                                />
-                            </div>
-
-                            <div className="flex flex-col mt-2">
-                                <label htmlFor="message" className="hidden">
-                                    Message
-                                </label>
-                                <textarea
-                                    name="message"
-                                    id="message"
-                                    placeholder="Your Message"
-                                    className="w-full mt-2 py-3 px-3 rounded-lg bg-transparent  border-2 border-gray-400  text-gray-800  font-semibold focus:border-indigo-500 focus:outline-none"
-                                />
-                            </div>
-
-                            <button
-                                type="submit"
-                                className="mt-3 md:w-32 bg-[#6E00FF]  hover:bg-gray-900  text-white font-bold py-3 px-6 rounded-lg transition ease-in-out duration-300"
-                            >
-                                Submit
-                            </button>
-
-                            <p className="leading-relaxed text-base sm:text-xl text-gray-300  mt-8">
-                                We use VeilMail.io to{' '}
-                                <a
-                                    className="font-medium text-blue-600  hover:underline"
-                                    href="https://veilmail.io"
-                                >
-                                    hide email addresses from spammers
-                                </a>
-                            </p>
-                        </form>
+                        
                     </div>
                 </div>
             </div>

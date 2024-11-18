@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { FaPlaneDeparture } from "react-icons/fa";
 
-import plane from '@/assets/plain333.svg';
+import plane from '@/assets/images/dgcaexam.jpeg';
 import AOS from "aos";
 import { useEffect, useState } from "react";
 export default function DGCAClass() {
@@ -73,7 +73,7 @@ Once submitted and if found satisfactory the applicant&apos;s Commercial Pilot L
                             </ul>
                         </div>
                         <div className="flex-1 flex justify-center items-center">
-                            <Image src={plane} alt="Plane illustration" />
+                            <Image src={plane} alt="Plane illustration" className="rounded-md p-4" />
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ export default function About(){
     }, []);
     return<>
     <Hero/>
-    <Wcu/>
+    {/* <Wcu/> */}
     <AircraftType/>
     <Team/>
   
