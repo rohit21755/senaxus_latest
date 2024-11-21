@@ -9,9 +9,7 @@ export default function Contact(){
                             <h1 className="text-4xl sm:text-5xl text-slate-200  font-extrabold tracking-tight">
                                 Get in touch
                             </h1>
-                            <p className="text-lg sm:text-2xl font-medium text-gray-600  mt-2">
-                                Fill in the form to start a conversation
-                            </p>
+                            
 
                             <div className="flex items-center mt-8 text-gray-600 ">
                                 {/* Placeholder for additional address or information */}

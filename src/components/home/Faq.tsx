@@ -6,13 +6,19 @@ const FAQAccordion = () => {
   const [loadedItems, setLoadedItems] = useState<number[]>([]); // Track loaded items for animation
 
   const faqs = [
-    { id: 1, title: "About the course", content: "Our comprehensive training course includes ground school for aviation theory, simulator training, and hands-on flight training. You'll gain the skills and certifications needed to become a professional commercial pilot." },
-    { id: 2, title: "About the training", content: "The training combines classroom instruction, advanced simulators, and real flight experience, ensuring you develop the technical skills, decision-making abilities, and confidence required for a successful aviation career." },
-    { id: 3, title: "What extracurricular activities...", content: "We offer a wide range of extracurricular activities including sports, arts, music, and academic clubs." },
-    { id: 4, title: "How do you handle food allergies...", content: "We maintain a detailed record of all student allergies and dietary requirements, ensuring safe meal preparation and service." },
-    { id: 5, title: "What is the teacher-to-student...", content: "We maintain small class sizes to ensure individual attention for each student." },
-    { id: 6, title: "How do you handle discipline...", content: "We use positive reinforcement techniques and maintain clear communication with parents." },
-    { id: 7, title: "How do I apply for admission...", content: "The admission process involves filling out an application form and scheduling an interview." },
+    { id: 1, title: "What is a CPL (Commercial Pilot License)?", content: "A CPL is a license that allows you to work as a professional pilot for airlines, cargo carriers, or charter companies." },
+    { id: 2, title: "What are the eligibility criteria for enrolling in a CPL program?", content: "You must be at least 18 years old, have completed 10+2 with Physics and Mathematics, and pass a Class 1 medical exam." },
+    { id: 3, title: "What is the total cost of obtaining a CPL?", content: "The cost ranges from ₹35-45 lakhs, depending on the training location and additional certifications." },
+    { id: 4, title: "How long does it take to complete CPL training?", content: "CPL training typically takes 12-18 months, depending on weather conditions and student progress." },
+    { id: 5, title: "Can I pursue CPL training in India or abroad through Future Pilots?", content: "Yes, we offer training options in both India and internationally recognized aviation schools." },
+    { id: 6, title: "Do you provide assistance with DGCA exams?", content: "Yes, we provide ground classes and materials to prepare for DGCA theory exams." },
+    { id: 7, title: "What are the prerequisites for starting CPL training?", content: "You must meet the medical, educational, and age requirements, and have a valid passport for international training." },
+    { id: 8, title: "What is the average starting salary of a commercial pilot?", content: "A fresh pilot in India can earn ₹2-5 lakhs per month, depending on the airline." },
+    { id: 9, title: "What types of aircraft are used for flight training?", content: "Training typically involves single-engine and multi-engine aircraft like Cessna 172 and Piper Seneca." },
+    { id: 10, title: "Does Future Pilots provide type-rating programs (e.g., Airbus A320, Boeing 737)?", content: "Yes, we offer type-rating programs for popular aircraft models after CPL completion." },
+    { id: 11, title: "Do I need to pass a medical exam before joining the program?", content: "Yes, a Class 1 medical exam certified by DGCA-approved doctors is mandatory." },   
+    { id: 12, title: "What job opportunities are available after obtaining a CPL?", content: "You can work as a commercial pilot, flight instructor, or in charter services, with further options in airlines post-type rating." },
+    { id: 13, title: "Can I work as a flight instructor after CPL training?", content: "Yes, completing additional instructor training allows you to work as a flight instructor." },
   ];
 
   const toggleItem = (id: number) => {
