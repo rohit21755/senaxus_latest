@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row md:justify-between items-center text-center md:text-left px-6 md:px-12">
             {/* Logo Section */}
             <div className="flex-shrink-0 flex items-center justify-center mb-4 md:mb-0">
-              <p className="text-white text-2xl font-bold">Senaxus</p>
+              <p className="text-white text-2xl font-bold">Future pilot</p>
             </div>
 
             {/* Links Section */}

@@ -7,9 +7,7 @@ export default function Team() {
         <>
             <div className="px-4 py-8 sm:px-8 md:px-16 lg:px-24 text-center">
                 <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-slate-300 mb-6">Our Team</h1>
-                <p className="text-gray-600 max-w-3xl mx-auto my-4 sm:my-6 md:my-8">
-                    At Little Learners Academy, our teaching team is the heart of our educational journey. We take great pride in employing highly qualified and passionate educators who possess a deep understanding of early childhood development. Our teachers create a warm and engaging atmosphere, encouraging curiosity, instilling confidence, and fostering a love for learning.
-                </p>
+                
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 py-8 px-4 sm:px-8 md:px-16 lg:px-24">

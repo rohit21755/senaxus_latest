@@ -39,7 +39,7 @@ export default function Navbar() {
                     <div className="flex justify-between h-16 px-4 sm:px-6 lg:px-8">
                         {/* Logo Section */}
                         <div className="flex-shrink-0 flex items-center">
-                            <p className="text-white text-2xl font-bold">Senaxus</p>
+                            <p className="text-white text-2xl font-bold">Future pilot</p>
                         </div>
 
                         {/* Desktop Navigation */}
