@@ -67,7 +67,7 @@ export default function Footer() {
           {/* Divider and Copyright Section */}
           <div className="border-t-2 border-slate-800 w-4/5 mx-auto my-4"></div>
           <div className="text-center">
-            <p>&copy; 2024 Senaxus. All rights reserved.</p>
+            <p>&copy; 2024 Future pilot. All rights reserved.</p>
           </div>
         </footer>
       </div>
