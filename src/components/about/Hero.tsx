@@ -6,22 +6,30 @@ export default function Hero(){
     return <>
     <div className="md:p-16 p-6">
     <div
-                style={{
-                    backgroundImage: `url(${img.src})`,
-                    backgroundSize: 'fit-content',
-                    backgroundPosition: 'center',
-                }}
-                className="relative h-64 sm:h-80 md:h-96 lg:h-[50vh] flex flex-col justify-end text-white rounded-lg p-4 sm:p-8"
-            >
-                <p data-aos="fade-in"
-    
-    // data-aos-delay="50"
-    data-aos-duration="50"
+    style={{
+        backgroundImage: `url(${img.src})`,
+        backgroundSize: 'cover', // Ensure the image covers the container
+        backgroundPosition: 'center', // Default position for larger screens
+    }}
+    className="relative h-64 sm:h-80 md:h-96 lg:h-[50vh] flex flex-col justify-end text-white rounded-lg p-4 sm:p-8"
+>
+    <style jsx>{`
+        @media (max-width: 640px) {
+            div {
+                background-position: left center !important; // Show left side for mobile
+            }
+        }
+    `}</style>
+    <p 
+        data-aos="fade-in"
+        data-aos-duration="50"
+        data-aos-anchor-placement="top-center"
+        className="text-xl sm:text-2xl md:text-3xl font-bold text-start mb-4 md:mb-8 ml-4 sm:ml-8"
+    >
+        About us
+    </p>
+</div>
 
-    data-aos-anchor-placement="top-center" className="text-xl sm:text-2xl md:text-3xl font-bold text-start mb-4 md:mb-8 ml-4 sm:ml-8">
-                    About us
-                </p>
-            </div>
     <div className='flex justify-between p-8 my-8' data-aos="fade-out"
 
     // data-aos-delay="50"
