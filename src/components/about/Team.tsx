@@ -2,6 +2,7 @@ import profile from '@/assets/profile.png';
 import Image from 'next/image';
 import mail from '@/assets/mail.png';
 import rohit from '@/assets/images/rohit_bhatt.png'
+import niti from '@/assets/images/niti_tiwari.png'
 export default function Team() {
     return (
         <>
@@ -80,8 +81,8 @@ export default function Team() {
                     >
                     <div className="flex justify-between mb-6 sm:mb-8">
                         <div className="flex gap-4 sm:gap-6">
-                            <Image src={profile} alt='' height={40} width={40} />
-                            <div><p className="font-bold text-lg sm:text-xl md:text-2xl text-slate-300">Niti Tiwar                            </p></div>
+                            <Image src={niti} alt='' height={40} width={40} className='rounded-full'/>
+                            <div><p className="font-bold text-lg sm:text-xl md:text-2xl text-slate-300">Niti Tiwari                            </p></div>
                             
                         </div>
                         <Image src={mail} height={30} width={30} alt='' />

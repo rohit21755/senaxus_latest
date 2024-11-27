@@ -1,16 +1,14 @@
-
-import about from '@/assets/about.png'
 import Image from 'next/image'
 import road from '@/assets/road.png'
-
+import img from '@/assets/images/aboutus.png'
 export default function Hero(){
 
     return <>
     <div className="md:p-16 p-6">
     <div
                 style={{
-                    backgroundImage: `url(${about.src})`,
-                    backgroundSize: 'cover',
+                    backgroundImage: `url(${img.src})`,
+                    backgroundSize: 'fit-content',
                     backgroundPosition: 'center',
                 }}
                 className="relative h-64 sm:h-80 md:h-96 lg:h-[50vh] flex flex-col justify-end text-white rounded-lg p-4 sm:p-8"
