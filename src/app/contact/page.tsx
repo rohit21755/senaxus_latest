@@ -1,3 +1,4 @@
+import { FaLocationDot } from "react-icons/fa6";
 export default function Contact(){
     return<>
     <div className="relative flex items-top justify-center min-h-screen  sm:items-center sm:pt-0 p-16">
@@ -5,7 +6,7 @@ export default function Contact(){
                 <div className="mt-8 overflow-hidden">
                     <div className="flex justify-center">
                         {/* Contact Information Section */}
-                        <div className="p-6 border-salte-500 border-2  sm:rounded-lg p-24">
+                        <div className="p-6 border-salte-500 border-2  sm:rounded-lg w-96">
                             <h1 className="text-4xl sm:text-5xl text-slate-200  font-extrabold tracking-tight">
                                 Get in touch
                             </h1>
@@ -63,6 +64,18 @@ export default function Contact(){
                                     >
                                         enquiry@futurepilot.in
                                     </a>
+                                </div>
+                            </div>
+                            <div className="flex items-center mt-2 text-gray-600  ">
+                            <FaLocationDot size={30}/>
+                                <div className="ml-4 text-md tracking-wide font-semibold">
+                                    <div
+                                      
+                                        className="text-blue-600 dark:text-blue-500 hover:underline "
+                                    >
+                                        FB-9, Ground Floor, Shivaji Enclave, Near Rajouri Garden, New Delhi 110027
+                                        India
+                                    </div>
                                 </div>
                             </div>
                         </div>
