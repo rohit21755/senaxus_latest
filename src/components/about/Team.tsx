@@ -101,7 +101,7 @@ export default function Team() {
 
                 
             </div>
-            <div className=' my-4 md:px-[575px] px-8 mx-auto'>
+            <div className=' my-4 md:px-[440px] lg:px-[500px] px-8 mx-auto'>
             <div className="rounded-md p-6 sm:p-8 border-2" data-aos="fade-up"
                 
                    
